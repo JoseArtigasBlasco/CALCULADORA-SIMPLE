@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #746e6e;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-top: 30px;
+  color: rgb(116, 3, 3);
+}
+
+h2 {
+  text-align: center;
+  margin-top: 10px;
+  color: #666;
+}
+
+.calculadora {
+  width: 620px;
+  margin: 0 auto;
+  background-color: #302e2e;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#pantalla {
+  width: 95%;
+  padding: 10px;
+  font-size: 60px;
+  margin-bottom: 30px;
+  text-align: right;
+  color: #0f0f0f;
+  
+}
+
+input[type="button"] {
+  width: 140px;
+  height: 140px;
+  margin-right: 11px;
+  margin-bottom: 11px;
+  font-size: 50px;
+  background-color: #0f0f0f;
+  color: rgb(18, 115, 201);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer
+  
+}
+
+input[type="buttonErase"] {
+  width: 600px;
+  height: 100px;
+  margin-right: 11px;
+  margin-bottom: 11px;
+  font-size: 40px;
+  background-color: #e95e0e;
+  color: rgb(231, 234, 236);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+input[type="buttonSigno"] {
+  width: 135px;
+  height: 140px;
+  margin-right: 11px;
+  margin-bottom: 11px;
+  font-size: 50px;
+  background-color: #0f0f0f;
+  color: rgb(201, 70, 18);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+input[type="button"]:hover {
+  background-color: #6bdf97;
+}
+
+input[type="buttonErase"]:hover {
+  background-color: #6bdf97;
+}
+
+input[type="buttonSigno"]:hover {
+  background-color: #6bdf97;
+}
+
+
+input[type="button"]:last-child {
+  margin-right: 0;
+}
